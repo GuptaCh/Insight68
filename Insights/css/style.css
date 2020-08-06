@@ -77,6 +77,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-top: 10rem;
+	-webkit-background-size: cover;
 }
 
 /* inner banner */
@@ -85,6 +86,7 @@ p {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-top: 10rem;
+	-webkit-background-size: cover;
 }
 
 .innerbanner h2 {
@@ -125,13 +127,26 @@ p {
 .btn-yellow {
 	background: linear-gradient(to bottom, #FFCF69, #F8B62B);
 	color: #122A88;
+	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
 }
+
 
 .btn-navy {
 	background: linear-gradient(to bottom, #3A52B2, #122A88);
 	color: #C2F6FF;
+	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
 }
 
+.btn-navy:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.btn-navy-banner {
+	background: linear-gradient(to bottom, #4aaecc, #3a8dc8);
+	color: #C2F6FF;
+	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
+}
 .h3 {
 	font-size: 25px;
 }
@@ -139,6 +154,7 @@ p {
 .about p {
 	font-size: 14px;
 	color: #2B2B2B;
+	font-weight: 350;
 }
 
 .bgyellow {
@@ -169,7 +185,7 @@ p {
 .sectionpoints {
 	line-height: 30px;
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 350;
 	color: #4f4f4f;
 	text-indent: -21px;
 	margin-left: 6px;
@@ -181,9 +197,10 @@ p {
 }
 
 .tryforfree {
-	background-image: url("../images/tryforfree.jpg");
+	background-image: url("../images/tryfreebg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	-webkit-background-size: cover;
 }
 
 .trytext {
@@ -259,3 +276,74 @@ ul {
 .slider-margin h6 {
 	color: #4f4f4f;
 }
+
+.black {
+	color: #4f4f4f;
+}
+
+
+.minisize {
+	border: 1px solid #EBEBEB;
+	box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.11);
+	border-radius: 5px;
+	background-color: #FAFAFA;
+	height: 100%;
+}
+
+.voilet {
+	color:#122A88;
+	font-size: 14px;
+}
+
+.freetop {
+	border-top: 8px solid #122A88;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.banner-img {
+	box-shadow: 10px 10px 50px 10px rgb(0 0 0 / 16%);
+	border-radius: 10px;
+}
+
+/* Chat box styles starts */
+.chat-popup {
+	display: none;
+}
+
+.chat-header {
+	background-color: rgb(40 64 159 / 1);
+	color: #f2f2f2;
+	box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.26);
+}
+
+.chat-body {
+	background-color: #fff;
+	color: #bdbdbd;
+	box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.26);
+}
+
+.chat-body p {
+	background-color: #F4F4F4;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.chat-footer {
+	background-color: #EDEDED;
+}
+
+.chat-footer input {
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 14%);
+	border: 1px solid #828282;
+}
+
+input::placeholder{
+	font-size: 12px;
+}
+
+/* chart box css ends */
