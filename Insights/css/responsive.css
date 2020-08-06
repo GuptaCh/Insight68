@@ -3,33 +3,70 @@
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+
     .bgyellow .pl-5 {
         padding-left: 0px !important;
     }
+
     .bgyellow .pr-5 {
         padding-right: 0px !important;
     }
+
     .productbod {
-        border-right: 0px solid #BDBDBD	;
+        border-right: 0px solid #BDBDBD;
     }
+
     .nav-pad {
         padding-left: 0rem !important;
     }
+
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem !important;
         padding-left: 1.5rem !important;
     }
+
     .dropdown-menu {
-        min-width: 20rem;
+        min-width: 18rem;
+    }
+
+    .slider-margin {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .offset-10 {
+        margin-left: 17.333333%;
     }
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
- .text-right {
-     text-align: left !important;
- }
+    .text-right {
+        text-align: left !important;
+    }
+
+    .bar-bottom {
+        overflow: auto;
+        height: 600px;
+    }
+
+    .form-inline {
+        float: right;
+    }
+
+    .navbar-brand,
+    .navbar-toggler {
+        margin-bottom: 1rem;
+    }
 }
 
+@media (min-width: 1000px) and (max-width: 1280px) {
+    .offset-10 {
+        margin-left: 70.333333%;
+    }
+}
 
-
-
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .service-textbottom {
+        height: 200px;
+    }
+}
