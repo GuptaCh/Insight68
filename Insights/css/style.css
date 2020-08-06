@@ -110,7 +110,6 @@ p {
 
 .bannertext .bold {
 	font-weight: bold;
-
 }
 
 .bannertext .light {
@@ -130,7 +129,6 @@ p {
 	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
 }
 
-
 .btn-navy {
 	background: linear-gradient(to bottom, #3A52B2, #122A88);
 	color: #C2F6FF;
@@ -147,6 +145,7 @@ p {
 	color: #C2F6FF;
 	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
 }
+
 .h3 {
 	font-size: 25px;
 }
@@ -174,7 +173,6 @@ p {
 	box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.12);
 	border: 0px solid #fff;
 	padding: 2rem 2.5rem;
-
 }
 
 .service-bod img {
@@ -209,7 +207,6 @@ p {
 
 .trytext .bold {
 	font-weight: bold;
-
 }
 
 .trytext .light {
@@ -281,17 +278,16 @@ ul {
 	color: #4f4f4f;
 }
 
-
 .minisize {
 	border: 1px solid #EBEBEB;
-	box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.11);
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.11);
 	border-radius: 5px;
 	background-color: #FAFAFA;
 	height: 100%;
 }
 
 .voilet {
-	color:#122A88;
+	color: #122A88;
 	font-size: 14px;
 }
 
@@ -342,8 +338,56 @@ ul {
 	border: 1px solid #828282;
 }
 
-input::placeholder{
+input::placeholder {
 	font-size: 12px;
 }
 
 /* chart box css ends */
+
+.not-allow {
+	cursor: not-allowed !important;
+}
+
+/* Scroll top Button starts*/
+#scroll {
+	display: inline-block;
+	background-color: #C8C8C8;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	position: fixed;
+	bottom: 75px;
+	right: 25px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+
+#scroll::after {
+	border-style: ridge;
+	border-color: #808080;
+	border-width: 0.1em 0.1em 0 0;
+	content: '';
+	display: inline-block;
+	height: 1em;
+	position: relative;
+	top: 0.8em;
+	transform: rotate(-45deg);
+	width: 1em;
+}
+
+#scroll:hover {
+	cursor: pointer;
+}
+
+#scroll:active {
+	background-color: #555;
+}
+
+#scroll.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Scroll top Button ends*/

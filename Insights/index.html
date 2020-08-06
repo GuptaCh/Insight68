@@ -16,7 +16,6 @@
 
 <body>
 
-
   <!-- Header With Nav bar -->
   <div class="bar-bottom fixed-top">
 
@@ -29,7 +28,8 @@
             <a class="pl-3"><img src="images/phone.svg" /> 000 0000 0000 </a>
           </div>
           <div class="col-lg-6 col-md-6 text-right">
-            <a class="pr-2">Contact Us</a> | <a class="px-2">Sign In <img class="pl-2" src="images/user.svg" /></a>
+            <a class="pr-2 pointer not-allow">Contact Us</a> |
+            <a class="px-2 pointer not-allow">Sign In</a> <img src="images/user.svg" />
           </div>
         </div>
       </div>
@@ -74,10 +74,10 @@
 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Support and Services</a>
+                <a class="nav-link not-allow">Support and Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link not-allow">
                   Resources
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -89,13 +89,12 @@
 
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">About Us</a>
+                <a class="nav-link not-allow">About Us</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-              <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
               <a class="pr-4"><img src="images/search.svg" /></a>
-              <button class="btn btn-navy text-uppercase font-weight-bold">try for free</button>
+              <button type="button" class="btn btn-navy text-uppercase font-weight-bold not-allow">try for free</button>
             </form>
           </div>
         </nav>
@@ -118,8 +117,8 @@
             <span class="font-weight-bold">AI-Driven platform and set of applications driving digital
               transformation</span>
             <span class="font-weight-lighter">for manufacturers in process and discrete industries.</span></div>
-          <button class="btn btn-yellow text-uppercase font-weight-bold mr-4 mt-3">see how it works</button>
-          <button class="btn btn-navy text-uppercase font-weight-bold mt-3">try for free</button>
+          <button class="btn btn-yellow text-uppercase font-weight-bold mr-4 mt-3 not-allow">see how it works</button>
+          <button class="btn btn-navy text-uppercase font-weight-bold mt-3 not-allow">try for free</button>
         </div>
       </div>
     </div>
@@ -166,57 +165,70 @@
     <div class="row mx-5 pb-4">
       <div class="col-lg-4 mt-5">
         <div class="service-bod">
-          <img src="images/service1.jpg" width="100%" />
-          <div class="about service-textbottom ">
-            <h6 class="text-uppercase font-weight-bold">Analytics, Dashboards & Reports</h6>
-            <p class="mb-1 pt-2">Our Analytics, dashboards & Reports for all business and operation functions...</p>
-          </div>
+          <a href="pro-ADR.html">
+            <img src="images/service1.jpg" width="100%" />
+            <div class="about service-textbottom ">
+              <h6 class="text-uppercase font-weight-bold">Analytics, Dashboards & Reports</h6>
+              <p class="mb-1 pt-2">Our Analytics, dashboards & Reports for all business and operation functions...</p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-lg-4 mt-5">
         <div class="service-bod">
-          <img src="images/service2.jpg" width="100%" />
-          <div class="about service-textbottom ">
-            <h6 class="text-uppercase font-weight-bold">Quality Management</h6>
-            <p class="mb-1 pt-2">Our Quality Management simplify your workflow, Label management and printing...</p>
-          </div>
+          <a href="pro-quality.html">
+            <img src="images/service2.jpg" width="100%" />
+            <div class="about service-textbottom ">
+              <h6 class="text-uppercase font-weight-bold">Quality Management</h6>
+              <p class="mb-1 pt-2">Our Quality Management simplify your workflow, Label management and printing...</p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-lg-4 mt-5">
         <div class="service-bod">
-          <img src="images/service3.jpg" width="100%" />
-          <div class="about service-textbottom ">
-            <h6 class="text-uppercase font-weight-bold">Inventory Management</h6>
-            <p class="mb-1 pt-2">Our Inventory management Manage stock in warehouse, manufacturing, QC & shipping...</p>
-          </div>
+          <a href="pro-inventory.html">
+            <img src="images/service3.jpg" width="100%" />
+            <div class="about service-textbottom ">
+              <h6 class="text-uppercase font-weight-bold">Inventory Management</h6>
+              <p class="mb-1 pt-2">Our Inventory management Manage stock in warehouse, manufacturing, QC & shipping...
+              </p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-lg-4 mt-5">
         <div class="service-bod">
-          <img src="images/service4.jpg" width="100%" />
-          <div class="about service-textbottom">
-            <h6 class="text-uppercase font-weight-bold">Equipmet Management</h6>
-            <p class="mb-1 pt-2">Our Equipmet Management provides assest management, matainance, calibration...</p>
-          </div>
+          <a class="pointer not-allow">
+            <img src="images/service4.jpg" width="100%" />
+            <div class="about service-textbottom">
+              <h6 class="text-uppercase font-weight-bold">Equipmet Management</h6>
+              <p class="mb-1 pt-2">Our Equipmet Management provides assest management, matainance, calibration...</p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-lg-4 mt-5">
         <div class="service-bod">
-          <img src="images/service5.jpg" width="100%" />
-          <div class="about service-textbottom h-100">
-            <h6 class="text-uppercase font-weight-bold">Case Management</h6>
-            <p class="mb-1 pt-2">Our Patient Case management across the supply Real time scheduling of orders...</p>
-          </div>
+          <a href="pro-casemanage.html">
+            <img src="images/service5.jpg" width="100%" />
+            <div class="about service-textbottom h-100">
+              <h6 class="text-uppercase font-weight-bold">Case Management</h6>
+              <p class="mb-1 pt-2">Our Patient Case management across the supply Real time scheduling of orders...</p>
+            </div>
+          </a>
         </div>
       </div>
       <div class="col-lg-4 mt-5">
         <div class="service-bod">
-          <img src="images/service6.jpg" width="100%" />
-          <div class="about service-textbottom">
-            <h6 class="text-uppercase font-weight-bold">Scheduler</h6>
-            <p class="mb-1 pt-2">Our Scheduler provdes Real time scheduling of orders based on Manufacturing
-              availability...</p>
-          </div>
+          <a href="pro-scheduler.html">
+            <img src="images/service6.jpg" width="100%" />
+            <div class="about service-textbottom">
+              <h6 class="text-uppercase font-weight-bold">Scheduler</h6>
+              <p class="mb-1 pt-2">Our Scheduler provdes Real time scheduling of orders based on Manufacturing
+                availability...</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -311,7 +323,7 @@
       <div class="row mx-5 freetop pb-4">
         <div class="col-lg-6 mt-2">
           <div>
-            <img class="img-fluid" src="images/tryfree1.png"/>
+            <img class="img-fluid" src="images/tryfree1.png" />
           </div>
         </div>
         <div class="col-lg-6 py-4">
@@ -319,8 +331,8 @@
             <span class="bold">AI-Driven platform and set of applications driving digital transformation</span>
             <span class="light">for manufacturers in process and discrete industries.</span>
           </h6>
-          <button class="btn btn-yellow text-uppercase font-weight-bold mr-4 mt-2">see how it works</button>
-          <button class="btn btn-navy-banner text-uppercase font-weight-bold mt-2">try for free</button>
+          <button class="btn btn-yellow text-uppercase font-weight-bold mr-4 mt-2 not-allow">see how it works</button>
+          <button class="btn btn-navy-banner text-uppercase font-weight-bold mt-2 not-allow">try for free</button>
         </div>
       </div>
     </div>
@@ -404,9 +416,9 @@
               for
               manufacturers in Process and Discrete industries.</p>
             <div class="pt-3">
-              <a class="pr-2"><img src="images/facebook.png" /></a>
-              <a class="pr-2"><img src="images/twitter.png" /></a>
-              <a class="pr-2"> <img src="images/youtuebe.png" /> </a>
+              <a class="pr-2 not-allow"><img src="images/facebook.png" /></a>
+              <a class="pr-2 not-allow"><img src="images/twitter.png" /></a>
+              <a class="pr-2 not-allow"> <img src="images/youtuebe.png" /> </a>
             </div>
           </div>
         </div>
@@ -414,17 +426,17 @@
           <h5>New to Insight68</h5>
           <div class="pt-2">
             <ul>
-              <li><a>Overview of Products</a></li>
-              <li><a>Industries</a></li>
-              <li><a>Platform</a></li>
-              <li><a>Analytics, Dashboards & Reports</a></li>
-              <li><a>Quality Management</a></li>
-              <li><a>Inventory Management</a></li>
-              <li><a>Case Management</a></li>
-              <li><a>Logistics</a></li>
-              <li><a>Scheduler</a></li>
-              <li><a>Manufacturing</a></li>
-              <li><a>Pricing</a></li>
+              <li><a href="pro-overview.html">Overview of Products</a></li>
+              <li><a href="pro-industries.html">Industries</a></li>
+              <li><a href="pro-platform.html">Platform</a></li>
+              <li><a href="pro-ADR.html">Analytics, Dashboards & Reports</a></li>
+              <li><a href="pro-quality.html">Quality Management</a></li>
+              <li><a href="pro-inventory.html">Inventory Management</a></li>
+              <li><a href="pro-casemanage.html">Case Management</a></li>
+              <li><a href="pro-logistics.html">Logistics</a></li>
+              <li><a href="pro-scheduler.html">Scheduler</a></li>
+              <li><a href="pro-manufacturing.html">Manufacturing</a></li>
+              <li><a href="pro-pricing.html">Pricing</a></li>
               <li><a></a></li>
             </ul>
           </div>
@@ -434,18 +446,18 @@
         <div class="col-lg-3 mt-3">
           <h5>About Insight68</h5>
           <ul class="pt-2">
-            <li><a>What is Insight68?</a></li>
-            <li><a>Our Story</a></li>
-            <li><a>Contact Us</a></li>
+            <li><a class="not-allow">What is Insight68?</a></li>
+            <li><a class="not-allow">Our Story</a></li>
+            <li><a class="not-allow">Contact Us</a></li>
           </ul>
 
           <h5 class="pt-3">Popular Links</h5>
           <ul class="pt-2">
-            <li><a>Support</a></li>
-            <li><a>Service Plans</a></li>
-            <li><a>Consulting</a></li>
-            <li><a>Guides and Videos</a></li>
-            <li><a>Compliance</a></li>
+            <li><a class="not-allow">Support</a></li>
+            <li><a class="not-allow">Service Plans</a></li>
+            <li><a class="not-allow">Consulting</a></li>
+            <li><a class="not-allow">Guides and Videos</a></li>
+            <li><a class="not-allow">Compliance</a></li>
 
           </ul>
         </div>
@@ -453,11 +465,11 @@
         <div class="col-lg-3 mt-3">
           <h5>Services</h5>
           <ul class="pt-2">
-            <li><a href="mailto:sales@Insight68.com">Sales@Insight68.com</a></li>
+            <li><a href="mailto:sales@insight68.com">sales@insight68.com</a></li>
           </ul>
           <h5 class="pt-3">Consulting</h5>
           <ul class="pt-2">
-            <li><a href="mailto:sales@Insight68.com">Sales@Insight68.com</a></li>
+            <li><a href="mailto:sales@insight68.com">sales@insight68.com</a></li>
           </ul>
         </div>
 
@@ -468,18 +480,18 @@
   <div class="footbg">
     <div class="container-fluid">
       <div class="row mx-4">
-        <div class="col-lg-6">
+        <div class="col-lg-9">
           <p class="foot-text mb-0 py-3">© Copyright 2020 insight68.com, inc. All rights reserved.</p>
         </div>
-        <div class="col-lg-6 text-right">
+        <div class="col-lg-3">
           <p class="foot-text mb-0 py-3">Terms of Service | Privacy</p>
         </div>
       </div>
     </div>
   </div>
 
-   <!-- Chatbox -->
-   <div class="fixed-bottom text-right pr-3">
+  <!-- Chatbox -->
+  <div class="fixed-bottom text-right pr-3">
     <div onclick="openForm()" class="pointer" id="chatInit">
       <img src="images/chatbox.png" alt="">
     </div>
@@ -502,7 +514,7 @@
         <!-- Body row -->
         <div class="row chat-body offset-10">
           <div class="mx-4">
-            <p class="pt-5 mt-5 text-center"style="background-color:#fff;font-size:11px;">Chat started at 6:45 PM</p>
+            <p class="pt-5 mt-5 text-center" style="background-color:#fff;font-size:11px;">Chat started at 6:45 PM</p>
             <p class="my-3 text-left">Hi I'm the Insight68 Assistant I'm here to help you get to the right place</p>
             <p class="my-3 text-left">What would you like to do?</p>
           </div>
@@ -522,9 +534,13 @@
     </div>
   </div>
 
+  <!--Scrol to top button -->
+  <a id="scroll"></a>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -539,6 +555,26 @@
       document.getElementById("chatform").style.display = "none";
       document.getElementById("chatInit").style.display = "block";
     }
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      var btn = $('#scroll');
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 500) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+      btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, '500');
+      });
+
+    });
   </script>
 
 </body>
