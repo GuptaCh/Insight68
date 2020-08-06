@@ -22,10 +22,11 @@
     <div class="headbg">
       <div class="container-fluid">
         <div class="row mx-5 py-3">
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-6 col-md-6 my-auto">
             <a class="headmail" href="mailto:sales@insight68.com"><img class="pr-2 mb-1" src="images/mail.svg" />
-              sales@insight68.com</a> &nbsp;&nbsp;|
-            <a class="pl-3"><img src="images/phone.svg" /> 000 000 000 0000 </a>
+              sales@insight68.com</a> &nbsp;&nbsp;|&nbsp;
+            <img class="mb-1" src="images/phone.svg" />
+            <a> 000 000 000 0000 </a>
           </div>
           <div class="col-lg-6 col-md-6 text-right">
             <a class="pr-2 pointer not-allow">Contact Us</a> |
@@ -366,8 +367,8 @@
     </div>
   </div>
 
-    <!--Scrol to top button -->
-    <a id="scroll"></a>
+  <!--Scrol to top button -->
+  <a id="scroll"></a>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -391,20 +392,22 @@
   <script>
     $(document).ready(function () {
       var btn = $('#scroll');
-      $(window).scroll(function() {
-      if ($(window).scrollTop() > 500 ) {
-        btn.addClass('show');
-      } else {
-        btn.removeClass('show');
-      }
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 500) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
       });
-      btn.on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({scrollTop:0}, '500');
+      btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, '500');
       });
-    
+
     });
-    </script>
+  </script>
 </body>
 
 </html>
