@@ -370,9 +370,13 @@
     </div>
   </div>
 
+    <!--Scrol to top button -->
+    <a id="scroll"></a>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -388,6 +392,23 @@
       document.getElementById("chatInit").style.display = "block";
     }
   </script>
+  <script>
+    $(document).ready(function () {
+      var btn = $('#scroll');
+      $(window).scroll(function() {
+      if ($(window).scrollTop() > 500 ) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+      });
+      btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '500');
+      });
+    
+    });
+    </script>
 </body>
 
 </html>
