@@ -3,7 +3,7 @@ body {
 }
 
 .headbg {
-	background-color: navy;
+	background-color: #122A88;
 	color:#C8C8C8;
 	font-size: 14px;
 	font-weight: 600;
@@ -25,6 +25,9 @@ body {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #122A88;
 }
 
 
@@ -59,12 +62,36 @@ body {
 	border-bottom: 8px solid #F2C057;
 }
 
+p {
+	font-size: 14px;
+	color: #4f4f4f;
+}
 
 .banner {
 	background-image: url("../images/bannerimg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+/* inner banner */
+.innerbanner {
+	background-image: url("../images/innerbanner.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.innerbanner h2{
+	color: #fff;
+}
+.innerbanner small{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+}
+.yellow {
+	color: #F2C057;
+}
+/* df */
+
 .bannertext {
 	color: #122A88;
 	font-size: 30px;
