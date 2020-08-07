@@ -120,7 +120,6 @@ p {
 	box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.39);
 	border-radius: 8px;
 	font-size: 14px;
-	height: 3rem;
 }
 
 label {
@@ -132,12 +131,14 @@ label {
 	color: #122A88;
 	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
 }
+
 .btn-signyellow {
-	background: linear-gradient(to bottom, #FFEEA2, #D7BB38 );
+	background: linear-gradient(to bottom, #FFEEA2, #D7BB38);
 	color: #333;
 }
+
 .btn-signnavy {
-	background: linear-gradient(to bottom, #3A52B2, #122A88 );
+	background: linear-gradient(to bottom, #3A52B2, #122A88);
 	color: #F2F2F2;
 }
 
@@ -362,12 +363,13 @@ ul {
 input::placeholder {
 	font-size: 14px;
 }
+
 textarea::placeholder {
 	font-size: 14px;
 }
 
 textarea {
-    resize: none;
+	resize: none;
 }
 
 /* chart box css ends */
@@ -436,9 +438,9 @@ textarea {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	position: relative;
-  }
-  
-  #custom-select::after {
+}
+
+#custom-select::after {
 	content: "\276E";
 	transform: rotate(-90deg);
 	position: absolute;
@@ -448,23 +450,25 @@ textarea {
 	line-height: 30px;
 	color: #828282 !important;
 	pointer-events: none;
-  }
+}
 
-  .bg-navy {
+.bg-navy {
 	background-color: #122A88;
-  }
-  .white {
-	  color: #fff;
-  }
-  .bg-navy h2 {
-	  font-size: 30px;
-  }
+}
 
-  .sign-free {
-	  border: 1px solid #BDBDBD;
-	  border-radius: 10px;
-  }
+.white {
+	color: #fff;
+}
 
-  .navy {
-	  color: #122A88;
-  }
+.bg-navy h2 {
+	font-size: 30px;
+}
+
+.sign-free {
+	border: 1px solid #BDBDBD;
+	border-radius: 10px;
+}
+
+.navy {
+	color: #122A88;
+}
