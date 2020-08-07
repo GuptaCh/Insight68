@@ -123,10 +123,22 @@ p {
 	height: 3rem;
 }
 
+label {
+	font-size: 14px;
+}
+
 .btn-yellow {
 	background: linear-gradient(to bottom, #FFCF69, #F8B62B);
 	color: #122A88;
 	box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 16%);
+}
+.btn-signyellow {
+	background: linear-gradient(to bottom, #FFEEA2, #D7BB38 );
+	color: #333;
+}
+.btn-signnavy {
+	background: linear-gradient(to bottom, #3A52B2, #122A88 );
+	color: #F2F2F2;
 }
 
 .btn-navy {
@@ -436,4 +448,23 @@ textarea {
 	line-height: 30px;
 	color: #828282 !important;
 	pointer-events: none;
+  }
+
+  .bg-navy {
+	background-color: #122A88;
+  }
+  .white {
+	  color: #fff;
+  }
+  .bg-navy h2 {
+	  font-size: 30px;
+  }
+
+  .sign-free {
+	  border: 1px solid #BDBDBD;
+	  border-radius: 10px;
+  }
+
+  .navy {
+	  color: #122A88;
   }
