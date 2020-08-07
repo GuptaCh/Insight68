@@ -142,6 +142,10 @@ label {
 	color: #F2F2F2;
 }
 
+.btn-signnavy:hover {
+	color: #C2F6FF;
+}
+
 .btn-navy {
 	background: linear-gradient(to bottom, #3A52B2, #122A88);
 	color: #C2F6FF;
@@ -240,6 +244,10 @@ li {
 
 li a {
 	color: #3A559F;
+}
+
+.headmail:hover {
+	color: #C2F6FF;
 }
 
 a:hover {
