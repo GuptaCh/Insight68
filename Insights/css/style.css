@@ -181,9 +181,13 @@ p {
 	border-top-right-radius: 5px;
 }
 
+.padd-story {
+	padding-left: 3rem;
+}
+
 .sectionpoints {
 	line-height: 30px;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 300;
 	color: #4f4f4f;
 	text-indent: -21px;
@@ -339,8 +343,19 @@ ul {
 	border: 1px solid #828282;
 }
 
-input::placeholder {
+.chat-footer input::placeholder {
 	font-size: 12px;
+}
+
+input::placeholder {
+	font-size: 14px;
+}
+textarea::placeholder {
+	font-size: 14px;
+}
+
+textarea {
+    resize: none;
 }
 
 /* chart box css ends */
@@ -396,3 +411,29 @@ input::placeholder {
 .chart-align {
 	text-align: right;
 }
+
+.form-control {
+	height: 50px;
+	font-size: 14px;
+	color: #787878;
+}
+
+
+#custom-select select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	position: relative;
+  }
+  
+  #custom-select::after {
+	content: "\276E";
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 35px;
+	line-height: 30px;
+	color: #828282 !important;
+	pointer-events: none;
+  }

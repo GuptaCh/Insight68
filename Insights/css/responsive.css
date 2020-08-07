@@ -37,6 +37,9 @@
     .offset-10 {
         margin-left: 17.333333%;
     }
+    .padd-story {
+        padding-left: 0rem;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
@@ -57,6 +60,10 @@
     .navbar-toggler {
         margin-bottom: 1rem;
     }
+    .innerbanner { 
+        margin-top: 13rem;
+    }
+   
 }
 
 @media (min-width: 1000px) and (max-width: 1280px) {
