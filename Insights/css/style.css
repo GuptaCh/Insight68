@@ -484,3 +484,69 @@ textarea {
 .navy {
 	color: #122A88;
 }
+
+.plan-title {
+	font-size: 25px;
+	color: #828282;
+}
+
+.plan-trial {
+	font-size: 25px;
+	color: #39F;
+	line-height: 50px;
+	border-bottom: 2px solid #EBEBEB;
+}
+
+.plan-standard {
+	font-size: 25px;
+	color: #122a88;
+	line-height: 50px;
+	border-bottom: 2px solid #EBEBEB;
+}
+
+.plan-gold {
+	font-size: 25px;
+	color: #FA9917;
+	line-height: 50px;
+	border-bottom: 2px solid #EBEBEB;
+}
+
+.plan-platinum {
+	font-size: 25px;
+	color: #227A65;
+	line-height: 50px;
+	border-bottom: 2px solid #EBEBEB;
+}
+
+.plan-desc {
+	background-color: #FAFAFA;
+	border: 1px solid #EBEBEB;
+	border-bottom: 8px solid #122a88;
+}
+
+.plan-desc p {
+	color: #4F4F4F;
+}
+
+.plan-desc h1 {
+	color: #4F4F4F;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.btn-gray {
+	font-weight: 600;
+	color: #333;
+	background-color: #F2F2F2 !important;
+	border: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+
+.btn-plan {
+	color: #122A88;
+	font-weight: 600 !important;
+	background: linear-gradient(to bottom, #FFCF69, #F8B62B);
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
