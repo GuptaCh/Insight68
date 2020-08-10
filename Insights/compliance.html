@@ -48,14 +48,17 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul class="navbar-nav mr-auto nav-pad">
+
+              <!-- Products -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">Products
                   <span class="sr-only">(current)</span></a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu" id="pro-cat" aria-labelledby="navbarDropdown">
 
-                  <div class="row px-2">
+                  <div class="row m-0">
 
                     <div class="col-lg-4 p-3" style="background-color: #fff;">
                       <strong style="color: #333;">Overview</strong>
@@ -90,42 +93,54 @@
                 </div>
 
               </li>
+
+              <!-- Support and Services -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownSupport" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   Support and Services
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownSupport" style="min-width: 16rem;">
+                <div id="supportservice" class="dropdown-menu" aria-labelledby="dropdownSupport"
+                  style="min-width: 16rem;background-color: #fff !important;">
                   <a class="dropdown-item" href="support.html">Support</a>
                   <a class="dropdown-item" href="service.html">Services</a>
                   <a class="dropdown-item" href="pricing.html">Pricing Plans</a>
                 </div>
               </li>
+
+              <!-- Resources -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="dropdownresource" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle active" href="#" id="dropdownresource" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
                   Resources
                 </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownresource" style="min-width: 16rem;">
-                  <a class="dropdown-item" href="customerSuccessStories.html">Customer Success Stories</a>
+                <div class="dropdown-menu" id="resources" aria-labelledby="dropdownresource"
+                  style="min-width: 16rem;background-color: #fff !important;">
+                  <a class=" dropdown-item" href="customerSuccessStories.html">Customer Success Stories</a>
                   <a class="dropdown-item" href="guide.html">Guides and Videos</a>
                   <a class="dropdown-item" href="compliance.html">Compliance</a>
                 </div>
               </li>
+
+              <!-- About Us -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdownabout" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">About Us</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownabout" style="min-width: 16rem;">
-                  <a class="dropdown-item" href="ourstory.html">Our Story</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownabout" id="about"
+                  style="min-width: 16rem;background-color: #fff !important;">
+                  <a class=" dropdown-item" href="ourstory.html">Our Story</a>
                   <a class="dropdown-item" href="about-insight.html">What is Insight68</a>
                   <a class="dropdown-item" href="contactus.html">Contact Us</a>
                 </div>
               </li>
+
             </ul>
+
             <form class="form-inline my-2 my-lg-0">
               <a class="pr-4"><img src="images/search.svg" /></a>
               <a href="signup.html" class="btn btn-navy text-uppercase font-weight-bold">try for free</a>
             </form>
+
           </div>
         </nav>
       </div>
@@ -450,37 +465,7 @@
   <script src="js/popper.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
-  <script>
-    function openForm() {
-      document.getElementById("chatform").style.display = "block";
-      document.getElementById("chatInit").style.display = "none";
-    }
-
-    function closeForm() {
-      document.getElementById("chatform").style.display = "none";
-      document.getElementById("chatInit").style.display = "block";
-    }
-  </script>
-  <script>
-    $(document).ready(function () {
-      var btn = $('#scroll');
-      $(window).scroll(function () {
-        if ($(window).scrollTop() > 500) {
-          btn.addClass('show');
-        } else {
-          btn.removeClass('show');
-        }
-      });
-      btn.on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-          scrollTop: 0
-        }, '500');
-      });
-
-    });
-  </script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>

@@ -68,6 +68,7 @@ a {
 	border: 0px solid #fff;
 	margin: 0rem;
 	background-color: #e2e7fe;
+	border-radius: 0px 5px 5px 5px !important;
 }
 
 p {
