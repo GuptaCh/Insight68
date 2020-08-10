@@ -52,8 +52,7 @@ a {
 }
 
 .dropdown-item:hover {
-	font-weight: 600 !important;
-	color: #0c1b59;
+	color: #02081f;
 }
 
 .show .dropdown-toggle {
@@ -64,7 +63,7 @@ a {
 .dropdown-menu {
 	min-width: 35rem;
 	padding: 15px;
-	box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.26);
+	box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.26);
 	border: 0px solid #fff;
 	margin: 0rem;
 	background-color: #e2e7fe;
@@ -491,6 +490,7 @@ textarea {
 }
 
 .plan-trial {
+	font-weight: bolder !important;
 	font-size: 25px;
 	color: #39F;
 	line-height: 50px;
@@ -498,6 +498,7 @@ textarea {
 }
 
 .plan-standard {
+	font-weight: bolder !important;
 	font-size: 25px;
 	color: #122a88;
 	line-height: 50px;
@@ -505,6 +506,7 @@ textarea {
 }
 
 .plan-gold {
+	font-weight: bolder !important;
 	font-size: 25px;
 	color: #FA9917;
 	line-height: 50px;
@@ -512,6 +514,7 @@ textarea {
 }
 
 .plan-platinum {
+	font-weight: bolder !important;
 	font-size: 25px;
 	color: #227A65;
 	line-height: 50px;
@@ -522,6 +525,7 @@ textarea {
 	background-color: #FAFAFA;
 	border: 1px solid #EBEBEB;
 	border-bottom: 8px solid #122a88;
+	box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.11);
 }
 
 .plan-desc p {
