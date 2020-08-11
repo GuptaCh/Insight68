@@ -1,7 +1,18 @@
 @media (min-width: 320px) and (max-width: 900px) {
+
     .mx-5 {
         margin-left: 0px !important;
         margin-right: 0px !important;
+    }
+
+    .px-5 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .service-textbottom {
+        height: auto !important;
+        padding: 1rem;
     }
 
     .bgyellow .pl-5 {
@@ -26,7 +37,7 @@
     }
 
     .dropdown-menu {
-        min-width: 18rem;
+        min-width: 100%;
     }
 
     .slider-margin {
@@ -37,12 +48,22 @@
     .offset-10 {
         margin-left: 17.333333%;
     }
+
     .padd-story {
         padding-left: 0rem;
     }
 }
 
 @media (min-width: 320px) and (max-width: 750px) {
+
+    .resdiv {
+        display: none;
+    }
+
+    .border-right {
+        border-right: 1px solid #fff !important;
+    }
+
     .text-right {
         text-align: left !important;
     }
@@ -60,16 +81,18 @@
     .navbar-toggler {
         margin-bottom: 1rem;
     }
-    .innerbanner { 
+
+    .innerbanner {
         margin-top: 13rem;
     }
-   
+
 }
 
 @media (min-width: 1000px) and (max-width: 1280px) {
     .offset-10 {
         margin-left: 70.333333%;
     }
+
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {

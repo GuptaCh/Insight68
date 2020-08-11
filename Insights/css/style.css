@@ -561,3 +561,8 @@ textarea {
 	border-radius: 0px !important;
 	box-shadow: none !important;
 }
+
+.cpx-5 {
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+}
