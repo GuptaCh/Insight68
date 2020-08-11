@@ -238,6 +238,13 @@ label {
 	font-weight: 100 !important;
 }
 
+#navbarDropdown,
+#dropdownSupport,
+#dropdownresource,
+#dropdownabout {
+	border-top: 4px solid #f8f9fa;
+}
+
 li {
 	list-style: none;
 	font-size: 14px;

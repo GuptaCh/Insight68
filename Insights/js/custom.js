@@ -34,7 +34,9 @@ $(document).ready(function () {
 
     // Products Menu Script
     $("#navbarDropdown").mouseenter(function () {
-        $(".banner,.about,.bgyellow,.service-bod,.sectionpoints,.tryforfree,.footer-bg,.footbg").css('opacity', '0.4');
+        $(".banner,.about,.bgyellow,.service-bod,.sectionpoints,.tryforfree,.footer-bg,.footbg").css({
+            'opacity': '0.4',
+        });
         $("#pro-cat").show();
         $("#navbarDropdown").css({
             'border-top': '4px solid #122a88',
@@ -51,14 +53,14 @@ $(document).ready(function () {
         // hide for resources
         $("#resources").hide();
         $("#dropdownresource").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // hide for about us
         $("#about").hide();
         $("#dropdownabout").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
@@ -68,7 +70,7 @@ $(document).ready(function () {
         $(".banner,.about,.bgyellow,.service-bod,.sectionpoints,.tryforfree,.footer-bg,.footbg").css('opacity', '1');
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
     });
@@ -80,21 +82,21 @@ $(document).ready(function () {
         // hide for products
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // hide for resources
         $("#resources").hide();
         $("#dropdownresource").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // hide for about us
         $("#about").hide();
         $("#dropdownabout").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
@@ -108,7 +110,7 @@ $(document).ready(function () {
         $(".banner,.about,.bgyellow,.service-bod,.sectionpoints,.tryforfree,.footer-bg,.footbg").css('opacity', '1');
         $("#supportservice").hide();
         $("#dropdownSupport").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
     });
@@ -125,21 +127,21 @@ $(document).ready(function () {
         // hide for products
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // Hide for supportandservices
         $("#supportservice").hide();
         $("#dropdownSupport").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // hide for about us
         $("#about").hide();
         $("#dropdownabout").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
@@ -149,7 +151,7 @@ $(document).ready(function () {
         $(".banner,.about,.bgyellow,.service-bod,.sectionpoints,.tryforfree,.footer-bg,.footbg").css('opacity', '1');
         $("#resources").hide();
         $("#dropdownresource").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
     });
@@ -166,21 +168,21 @@ $(document).ready(function () {
         // hide for products
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // Hide for supportandservices
         $("#supportservice").hide();
         $("#dropdownSupport").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
         // hide for resources
         $("#resources").hide();
         $("#dropdownresource").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
 
@@ -190,7 +192,7 @@ $(document).ready(function () {
         $(".banner,.about,.bgyellow,.service-bod,.sectionpoints,.tryforfree,.footer-bg,.footbg").css('opacity', '1');
         $("#about").hide();
         $("#dropdownabout").css({
-           'border-top': '4px solid #f8f9fa',
+            'border-top': '4px solid #f8f9fa',
             'background-color': '#f8f9fa'
         });
     });
