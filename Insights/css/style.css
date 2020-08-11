@@ -63,7 +63,7 @@ a {
 .dropdown-menu {
 	min-width: 35rem;
 	padding: 15px;
-	box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.26);
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.20);
 	border: 0px solid #fff;
 	margin: 0rem;
 	background-color: #e2e7fe;
