@@ -45,21 +45,21 @@ $(document).ready(function () {
         $("#supportservice").hide();
         $("#dropdownSupport").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // hide for resources
         $("#resources").hide();
         $("#dropdownresource").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // hide for about us
         $("#about").hide();
         $("#dropdownabout").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
     });
@@ -69,7 +69,7 @@ $(document).ready(function () {
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
     });
 
@@ -81,21 +81,21 @@ $(document).ready(function () {
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // hide for resources
         $("#resources").hide();
         $("#dropdownresource").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // hide for about us
         $("#about").hide();
         $("#dropdownabout").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         $("#dropdownSupport").css({
@@ -109,7 +109,7 @@ $(document).ready(function () {
         $("#supportservice").hide();
         $("#dropdownSupport").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
     });
 
@@ -126,21 +126,21 @@ $(document).ready(function () {
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // Hide for supportandservices
         $("#supportservice").hide();
         $("#dropdownSupport").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // hide for about us
         $("#about").hide();
         $("#dropdownabout").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
     });
@@ -150,7 +150,7 @@ $(document).ready(function () {
         $("#resources").hide();
         $("#dropdownresource").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
     });
 
@@ -167,21 +167,21 @@ $(document).ready(function () {
         $("#pro-cat").hide();
         $("#navbarDropdown").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // Hide for supportandservices
         $("#supportservice").hide();
         $("#dropdownSupport").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
         // hide for resources
         $("#resources").hide();
         $("#dropdownresource").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
 
     });
@@ -191,7 +191,7 @@ $(document).ready(function () {
         $("#about").hide();
         $("#dropdownabout").css({
             'border-top': '0px solid #122a88',
-            'background-color': '#fff'
+            'background-color': '#f8f9fa'
         });
     });
 });
