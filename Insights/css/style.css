@@ -570,6 +570,7 @@ textarea {
 .banner-chat {
 	background-image: url("../images/banner-chat.png");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	margin-top: 5rem;
 	-webkit-background-size: cover;
 }
