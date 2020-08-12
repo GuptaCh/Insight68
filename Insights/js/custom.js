@@ -197,3 +197,12 @@ $(document).ready(function () {
         });
     });
 });
+
+$(document).ready(function () {
+
+    // Toggle Button clicked
+    $("#toggle").click(function () {
+        $(".fixed-top").toggleClass('bar-bottom');
+    });
+
+});

@@ -19,7 +19,7 @@
 <body>
 
   <!-- Header With Nav bar -->
-  <div class="bar-bottom fixed-top">
+  <div class="fixed-top">
 
     <div class="headbg">
       <div class="container-fluid">
@@ -41,8 +41,9 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light mx-5 py-3">
           <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" id="toggle" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -194,68 +195,68 @@
 
 
         <form>
-          <div class="row pt-2">
+          <div class="row pt-3">
             <div class="col-md-6">
               <div class="form-group">
-                <input class="form-control" placeholder="First Name" required />
+                <input type="text" class="form-control" placeholder="First Name" minlength="3" maxlength="20"
+                  required />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input class="form-control" placeholder="Last Name" required />
+                <input type="text" class="form-control" placeholder="Last Name" minlength="3" maxlength="20" required />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input class="form-control" placeholder="Email Address" required />
+                <input type="text" class="form-control" placeholder="Email Address" minlength="6" maxlength="75"
+                  required />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input class="form-control" placeholder="Subject" required />
+                <input type="text" class="form-control" placeholder="Subject" minlength="3" maxlength="25" required />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group" id="custom-select">
                 <select class="form-control" id="exampleFormControlSelect1">
-                  <option>Select Product</option>
-                  <option>Analytics, Dashboards & Reports</option>
-                  <option>Quality Management</option>
-                  <option>Inventory Management</option>
-                  <option>Case Management</option>
-                  <option>Logistics</option>
-                  <option>Scheduler</option>
-                  <option>Manufacturing</option>
-                  <option>Pricing</option>
-                  <option>Others</option>
+                  <option value="0">Select Product</option>
+                  <option value="1">Analytics, Dashboards & Reports</option>
+                  <option value="2">Quality Management</option>
+                  <option value="3">Inventory Management</option>
+                  <option value="4">Case Management</option>
+                  <option value="5">Logistics</option>
+                  <option value="6">Scheduler</option>
+                  <option value="7">Manufacturing</option>
+                  <option value="8">Pricing</option>
+                  <option value="9">Others</option>
                 </select>
               </div>
             </div>
 
-
             <div class="col-md-6">
               <div class="form-group">
-                <input class="form-control" placeholder="Skype ID/WhatsApp Number" required />
+                <input type="text" class="form-control" placeholder="SkypeID/WhatsApp Number" required />
               </div>
             </div>
             <div class="col-md-12">
               <div class="form-group">
-                <textarea placeholder="Message" rows="5" class="form-control"></textarea>
+                <textarea placeholder="Message" rows="5" class="form-control" minlength="3" maxlength="200"></textarea>
               </div>
             </div>
           </div>
           <div class="py-4">
-            <button class="btn btn-navy text-uppercase font-weight-bold px-5 mb-3">Submit</button>
+            <button class="btn btn-navy text-uppercase font-weight-bold mb-3">Submit</button>
           </div>
 
         </form>
       </div>
       <div class="col-lg-5 mt-3">
         <div class="text-center">
-          <img class="img-fluid w-75" src="images/support.png" />
+          <img class="img-fluid" src="images/support.png" />
         </div>
       </div>
-
 
     </div>
 
