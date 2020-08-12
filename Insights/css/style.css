@@ -585,3 +585,33 @@ textarea {
 	margin-top: -20rem;
 }
 
+.support-title {
+	line-height: 30px;
+	color: #000;
+}
+
+.support-title1 {
+	color: #4f4f4f;
+}
+
+.support-block {
+	color: #051E81;
+	line-height: 25px;
+	font-size: 25px;
+}
+
+.support-mail-div {
+	border-radius: 25px;
+	background: #F2F2F2;
+}
+
+.support-mail {
+	color: #122A88;
+	font-size: 20px;
+}
+
+.support-block1 {
+	color: #051E81;
+	line-height: 46px;
+	font-size: 25px;
+}
