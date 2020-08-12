@@ -567,10 +567,21 @@ textarea {
 	padding-right: 2rem !important;
 }
 
-.banner-chat {
+/* .banner-chat {
 	background-image: url("../images/banner-chat.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-top: 5rem;
 	-webkit-background-size: cover;
+} */
+
+/* .banner-chat {
+	position: absolute;
+	z-index: -1;
+	margin-top: -18rem;
+} */
+
+.banner-chat {
+	margin-top: -20rem;
 }
+
