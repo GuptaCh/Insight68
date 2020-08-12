@@ -79,7 +79,7 @@ p {
 	background-image: url("../images/bannerimg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	margin-top: 12rem;
+	margin-top: 10rem;
 	-webkit-background-size: cover;
 }
 
@@ -565,4 +565,11 @@ textarea {
 .cpx-5 {
 	padding-left: 2rem !important;
 	padding-right: 2rem !important;
+}
+
+.banner-chat {
+	background-image: url("../images/banner-chat.png");
+	background-repeat: no-repeat;
+	margin-top: 5rem;
+	-webkit-background-size: cover;
 }
