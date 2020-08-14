@@ -143,6 +143,7 @@ label {
 .btn-signnavy {
 	background: linear-gradient(to bottom, #3A52B2, #122A88);
 	color: #F2F2F2;
+	border-radius: 6px !important;
 }
 
 .btn-signnavy:hover {
@@ -588,6 +589,7 @@ textarea {
 .support-title {
 	line-height: 30px;
 	color: #000;
+	font-size: 25px;
 }
 
 .support-title1 {
@@ -614,4 +616,31 @@ textarea {
 	color: #051E81;
 	line-height: 46px;
 	font-size: 25px;
+}
+
+.sign-up-nav {
+	color: #051E81;
+}
+
+.step {
+	color: #333;
+	font-size: 14px;
+}
+
+.step2-title {
+	font-size: 25px;
+}
+
+.select-block {
+	background-color: #FFDD94;
+	border: 1px solid #F8B62B;
+	box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.11);
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
 }

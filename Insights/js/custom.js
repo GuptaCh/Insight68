@@ -206,3 +206,93 @@ $(document).ready(function () {
     });
 
 });
+
+// step 5 of 5 sign up process script starts
+let predefinedQues = ['How many people work at your company?', 'What field do you work in?', 'Which of the following best describes your role?', 'Which of these sounds most like you?'];
+
+function selectQuestion(ans, ansDiv, quesText) {
+    const selectedQuesText = document.getElementById(quesText);
+    const selectedAnsDiv = document.getElementById(ansDiv);
+    const selectedAns = document.getElementById(ans);
+
+    if (ans == 'ans-1' || ans == 'ans-2' || ans == 'ans-3' || ans == 'ans-4') {
+        selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span>` + selectedAns.innerHTML + ' people work at your company?' + `</span>`;
+        question('ques2Text', 'ques2');
+        selectedAnsDiv.classList.add('hide');
+    } else if (ans == 'ans-5' || ans == 'ans-6' || ans == 'ans-7' || ans == 'ans-8' || ans == 'ans-9') {
+        selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span>` + selectedAns.innerHTML + `</span`;
+        question2('ques3Text', 'ques3');
+        selectedAnsDiv.classList.add('hide');
+    } else if (ans == 'ans-10' || ans == 'ans-11' || ans == 'ans-12' || ans == 'ans-13' || ans == 'ans-14') {
+        selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span>` + selectedAns.innerHTML + `</span`;
+        question3('ques4Text', 'ques4');
+        selectedAnsDiv.classList.add('hide');
+    } else {
+        selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span>` + selectedAns.innerHTML + `</span`;
+        btncondition('btnfinish')
+        selectedAnsDiv.classList.add('hide');
+    }
+}
+
+function toggleQuestion(quesText) {
+    if (quesText === 'ques1Text') {
+        newFunction('ques1Text', 'ques1', 0);
+    } else if (quesText === 'ques2Text') {
+        newFunction('ques2Text', 'ques2', 1);
+    } else if (quesText === 'ques3Text') {
+        newFunction('ques3Text', 'ques3', 2);
+    } else if (quesText === 'ques4Text') {
+        newFunction('ques4Text', 'ques4', 3);
+    }
+}
+
+function newFunction(quesText, quesNo, index) {
+    const selectedAnsDiv = document.getElementById(quesNo);
+    const selectedQuesText = document.getElementById(quesText);
+    selectedQuesText.innerHTML = `<img src="images/tickbtn.svg" class="pr-3 mb-2" alt="">` + predefinedQues[index];
+    selectedAnsDiv.classList.remove('hide');
+}
+
+function question(quesDiv, ansDiv) {
+    const quesTextDiv = document.getElementById(quesDiv).getElementsByTagName("span")[0];
+    const quesText = quesTextDiv.innerHTML;
+    console.log(quesText);
+    console.log(predefinedQues[1]);
+    if (quesText == predefinedQues[1]) {
+        const nextAnsDiv = document.getElementById(ansDiv);
+        nextAnsDiv.classList.remove('hide');
+    } else {
+        return;
+    }
+}
+
+function question2(quesDiv, ansDiv) {
+    const quesTextDiv1 = document.getElementById(quesDiv).getElementsByTagName("span")[0];
+    const quesText1 = quesTextDiv1.innerHTML;
+    console.log(quesText1);
+    console.log(predefinedQues[2]);
+    if (quesText1 == predefinedQues[2]) {
+        const nextAnsDiv1 = document.getElementById(ansDiv);
+        nextAnsDiv1.classList.remove('hide');
+    } else {
+        return;
+    }
+}
+
+function question3(quesDiv, ansDiv) {
+    const quesTextDiv2 = document.getElementById(quesDiv).getElementsByTagName("span")[0];
+    const quesText2 = quesTextDiv2.innerHTML;
+    console.log(quesText2);
+    console.log(predefinedQues[3]);
+    if (quesText2 == predefinedQues[3]) {
+        const nextAnsDiv2 = document.getElementById(ansDiv);
+        nextAnsDiv2.classList.remove('hide');
+    } else {
+        return;
+    }
+}
+
+function btncondition(id) {
+    const btn = document.getElementById(id);
+    btn.classList.remove('disabled');
+}
