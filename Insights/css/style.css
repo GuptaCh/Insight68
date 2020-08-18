@@ -2,26 +2,23 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-a {
-	color: black;
-}
-
 .headbg {
 	background-color: #122A88;
 	color: #C8C8C8;
 	font-size: 14px;
-	font-weight: 600;
 }
 
 .headmail {
 	color: #C8C8C8;
-	font-weight: 600;
 }
 
 .nav-link {
 	font-size: 14px;
 	color: #4f4f4f;
-	font-weight: 600;
+}
+
+.bg-light {
+	border-bottom: 8px solid #F2C057;
 }
 
 .nav-pad {
@@ -48,7 +45,6 @@ a {
 	font-size: 13px;
 	color: #0c1b59;
 	padding: 5px 0px;
-	font-weight: 500;
 }
 
 .dropdown-item:hover {
@@ -70,11 +66,6 @@ a {
 	border-radius: 0px 5px 5px 5px !important;
 }
 
-p {
-	font-size: 14px;
-	color: #4f4f4f;
-}
-
 .banner {
 	background-image: url("../images/bannerimg.png");
 	background-repeat: no-repeat;
@@ -89,6 +80,13 @@ p {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-top: 10rem;
+	-webkit-background-size: cover;
+}
+
+.admin-bg {
+	background-image: url("../images/adminbg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
 	-webkit-background-size: cover;
 }
 
@@ -339,6 +337,11 @@ ul {
 .banner-img {
 	box-shadow: 10px 10px 50px 10px rgb(0 0 0 / 16%);
 	border-radius: 10px;
+}
+
+p {
+	font-size: 14px;
+	color: #4f4f4f;
 }
 
 /* Chat box styles starts */

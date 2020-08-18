@@ -65,7 +65,8 @@
     }
 
     .text-right {
-        text-align: left !important;
+        text-align: unset !important;
+        display: inline-block;
     }
 
     .bar-bottom {
