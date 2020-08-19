@@ -210,6 +210,8 @@ $(document).ready(function () {
 // step 5 of 5 sign up process script starts
 let predefinedQues = ['How many people work at your company?', 'What field do you work in?', 'Which of the following best describes your role?', 'Which of these sounds most like you?'];
 
+let predefinedAns = [];
+
 function selectQuestion(ans, ansDiv, quesText) {
     const selectedQuesText = document.getElementById(quesText);
     const selectedAnsDiv = document.getElementById(ansDiv);
@@ -218,19 +220,23 @@ function selectQuestion(ans, ansDiv, quesText) {
     if (ans == 'ans-1' || ans == 'ans-2' || ans == 'ans-3' || ans == 'ans-4') {
         selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span class="text-truncate">` + selectedAns.innerHTML + ' people work at your company?' + `</span>`;
         question('ques2Text', 'ques2');
+        predefinedAns[0] = selectedAns.innerHTML;
         selectedAnsDiv.classList.add('hide');
     } else if (ans == 'ans-5' || ans == 'ans-6' || ans == 'ans-7' || ans == 'ans-8' || ans == 'ans-9') {
         selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span class="text-truncate">` + selectedAns.innerHTML + `</span`;
         question2('ques3Text', 'ques3');
         selectedAnsDiv.classList.add('hide');
+        predefinedAns[1] = selectedAns.innerHTML;
     } else if (ans == 'ans-10' || ans == 'ans-11' || ans == 'ans-12' || ans == 'ans-13' || ans == 'ans-14') {
         selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span class="text-truncate">` + selectedAns.innerHTML + `</span`;
         question3('ques4Text', 'ques4');
         selectedAnsDiv.classList.add('hide');
+        predefinedAns[2] = selectedAns.innerHTML;
     } else {
         selectedQuesText.innerHTML = `<img src="images/tickfinishbtn.svg" class="pr-3 mb-2" alt=""><span class="text-truncate">` + selectedAns.innerHTML + `</span`;
         btncondition('btnfinish')
         selectedAnsDiv.classList.add('hide');
+        predefinedAns[3] = selectedAns.innerHTML;
     }
 }
 
@@ -295,4 +301,30 @@ function question3(quesDiv, ansDiv) {
 function btncondition(id) {
     const btn = document.getElementById(id);
     btn.classList.remove('disabled');
+}
+
+// Signup final screen data submit
+$(document).on('click', '#btnfinish', function () {
+    var result = {
+        Howmanypeopleworkatyourcompany: predefinedAns[0],
+        Whatfielddoyouworkin: predefinedAns[1],
+        Whichofthefollowingbestdescribesyourrole: predefinedAns[2],
+        Whichofthesesoundsmostlikeyou: predefinedAns[3],
+    };
+    console.log(result); // Final Result array
+});
+
+function submitpage(result) {
+    $.post(ctx + "/signup", result, function (data) {
+        if (data.status == 'SUCCESS') {
+            toastr.success(data.message, '', {
+                timeOut: 10000
+            });
+        } else {
+            g_AscId = "";
+            toastr.error(data.message, '', {
+                timeOut: 10000
+            })
+        }
+    });
 }
