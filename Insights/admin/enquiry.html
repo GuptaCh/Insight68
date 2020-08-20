@@ -278,12 +278,12 @@
 
                             <!-- Users -->
                             <a href="/admin/users.html" class="text text-truncate">
-                                <img class="mb-1" src="/images/users.svg" alt=""> <span class="pl-3 active">Users</span>
+                                <img class="mb-1" src="/images/users.svg" alt=""> <span class="pl-3">Users</span>
                             </a>
 
                             <!-- Enquires -->
                             <a href="/admin/enquiry.html" class="text text-truncate">
-                                <img class="mb-1" src="/images/enquires.svg" alt=""> <span class="pl-3">Enquires</span>
+                                <img class="mb-1" src="/images/enquires.svg" alt=""> <span class="pl-3 active">Enquires</span>
                             </a>
 
                         </div>
@@ -355,7 +355,7 @@
                                 <div class="inputWithIcon">
                                     <i class="fas fa-search"></i>
                                     <input type="text" [(ngModel)]="term" (keyup)="navigateToSearchResult()"
-                                        class="form-control" placeholder="Search for users..." autocomplete="off"
+                                        class="form-control" placeholder="Search for enquiries..." autocomplete="off"
                                         name="search" [ngModelOptions]="{standalone: true}" maxlength="75" />
                                 </div>
                             </div>
@@ -371,134 +371,98 @@
                     <table class="table table-borderless">
                         <thead>
                             <tr>
+                                <th class="text-truncate">Date</th>
                                 <th class="text-truncate">First Name</th>
                                 <th class="text-truncate">Last Name</th>
                                 <th class="text-truncate">Email Address</th>
-                                <th class="text-truncate">Mobile Number</th>
-                                <th class="text-truncate">Working Field</th>
-                                <th class="text-truncate">Working as a</th>
-                                <th class="text-truncate">Date</th>
-                                <th class="text-truncate">Domain</th>
-                                <th class="text-truncate">No.of Emp</th>
+                                <th class="text-truncate">Subject</th>
+                                <th class="text-truncate">Products</th>
+                                <th class="text-truncate">Message</th>
+                                <th class="text-truncate">Skype / Whatsapp</th>
                                 <th class="text-truncate">Action</th>
                             </tr>
                         </thead>
                         <tbody>
+
                             <tr class="font-weight-bold">
+                                <td class="text-truncate"> 10/08/2020</td>
                                 <td class="text-capitalize text-truncate">Dennis</td>
                                 <td class="colorln text-capitalize text-truncate">Katherine</td>
                                 <td class="coloremail text-capitalize text-truncate">dennis@gmail.com</td>
-                                <td class="text-truncate text-truncate">(978) 764-5637</td>
-                                <td class="text-truncate"> Admin </td>
-                                <td class="text-truncate">HR</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.ibm.com</td>
-                                <td class="text-truncate">1-25 </td>
+                                <td class="text-truncate text-truncate">Login Failure</td>
+                                <td class="text-truncate"> Others </td>
+                                <td class="text-truncate">Sign in process failure Please Help</td>
+                                <td class="text-truncate text-center">Katherine18</td>
                                 <td class="text text-capitalize text-center">
                                     <a class="font-weight-bold pointer view"><u> View</u></a>
                                 </td>
                             </tr>
 
                             <tr class="font-weight-bold">
+                                <td class="text-truncate"> 10/08/2020</td>
                                 <td class="text-capitalize text-truncate">Lynch</td>
-                                <td class="colorln text-capitalize text-truncate">Muhammad</td>
-                                <td class="coloremail text-capitalize text-truncate">lynch@yahoo.com</td>
-                                <td class="text-truncate text-truncate">(905) 305-7513</td>
-                                <td class="text-truncate"> Customer Support </td>
-                                <td class="text-truncate">HR</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">infosys.com</td>
-                                <td class="text-truncate">1-25 </td>
+                                <td class="colorln text-capitalize text-truncate">Mohademmd</td>
+                                <td class="coloremail text-capitalize text-truncate">lyunch@gmail.com</td>
+                                <td class="text-truncate text-truncate">Product Enquiry</td>
+                                <td class="text-truncate"> Logstics </td>
+                                <td class="text-truncate">I Need to all product details and Pricing details</td>
+                                <td class="text-truncate text-center">(905) 305-7513</td>
                                 <td class="text text-capitalize text-center">
                                     <a class="font-weight-bold pointer view"><u> View</u></a>
                                 </td>
                             </tr>
 
                             <tr class="font-weight-bold">
-                                <td class="text-capitalize text-truncate">Richards</td>
+                                <td class="text-truncate"> 10/08/2020</td>
+                                <td class="text-capitalize text-truncate">Richard</td>
                                 <td class="colorln text-capitalize text-truncate">Thomas</td>
-                                <td class="coloremail text-capitalize text-truncate">richards@gmail.com</td>
-                                <td class="text-truncate text-truncate">(905) 513-5185</td>
-                                <td class="text-truncate"> Admin </td>
-                                <td class="text-truncate">HR</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.tcs.com</td>
-                                <td class="text-truncate">1-25 </td>
+                                <td class="coloremail text-capitalize text-truncate">lyunch@gmail.com</td>
+                                <td class="text-truncate text-truncate">Product Enquiry</td>
+                                <td class="text-truncate"> Logstics </td>
+                                <td class="text-truncate">I Need to all product details and Pricing details</td>
+                                <td class="text-truncate text-center">RichardsThomos</td>
                                 <td class="text text-capitalize text-center">
                                     <a class="font-weight-bold pointer view"><u> View</u></a>
                                 </td>
                             </tr>
 
                             <tr class="font-weight-bold">
+                                <td class="text-truncate"> 10/08/2020</td>
                                 <td class="text-capitalize text-truncate">Black</td>
-                                <td class="colorln text-capitalize text-truncate">Archie</td>
-                                <td class="coloremail text-capitalize text-truncate">black@gmail.com</td>
-                                <td class="text-truncate text-truncate">(978) 764-5637</td>
-                                <td class="text-truncate"> Sales Manager </td>
-                                <td class="text-truncate">HR</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.microsoft.com</td>
-                                <td class="text-truncate">1-25 </td>
+                                <td class="colorln text-capitalize text-truncate">Riche</td>
+                                <td class="coloremail text-capitalize text-truncate">Black@gmail.com</td>
+                                <td class="text-truncate text-truncate">Tech Support Help</td>
+                                <td class="text-truncate"> Scheduler </td>
+                                <td class="text-truncate">Sign-up Process failure, for my new user login</td>
+                                <td class="text-truncate text-center">BlackArchie09</td>
                                 <td class="text text-capitalize text-center">
                                     <a class="font-weight-bold pointer view"><u> View</u></a>
                                 </td>
                             </tr>
 
                             <tr class="font-weight-bold">
-                                <td class="text-capitalize text-truncate">Parkes</td>
+                                <td class="text-truncate"> 10/08/2020</td>
+                                <td class="text-capitalize text-truncate">Parks</td>
                                 <td class="colorln text-capitalize text-truncate">Ben</td>
-                                <td class="coloremail text-capitalize text-truncate">Parkes@gmail.com</td>
-                                <td class="text-truncate text-truncate">(978) 764-5637</td>
-                                <td class="text-truncate"> Marketing </td>
-                                <td class="text-truncate">Marketing</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.ibm.com</td>
-                                <td class="text-truncate">1-25 </td>
+                                <td class="coloremail text-capitalize text-truncate">parkers@gmail.com</td>
+                                <td class="text-truncate text-truncate">Tech Support Help</td>
+                                <td class="text-truncate"> Scheduler </td>
+                                <td class="text-truncate">We need Case Management Pricing details and demo as..</td>
+                                <td class="text-truncate text-center">Parkers Ben</td>
                                 <td class="text text-capitalize text-center">
                                     <a class="font-weight-bold pointer view"><u> View</u></a>
                                 </td>
                             </tr>
 
                             <tr class="font-weight-bold">
+                                <td class="text-truncate"> 10/08/2020</td>
                                 <td class="text-capitalize text-truncate">Dennis</td>
-                                <td class="colorln text-capitalize text-truncate">Katherina</td>
-                                <td class="coloremail text-capitalize text-truncate">Katherina@gmail.com</td>
-                                <td class="text-truncate text-truncate">(978) 764-5637</td>
-                                <td class="text-truncate"> Customer Support </td>
-                                <td class="text-truncate">Font office</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.ibm.com</td>
-                                <td class="text-truncate">1-25 </td>
-                                <td class="text text-capitalize text-center">
-                                    <a class="font-weight-bold pointer view"><u> View</u></a>
-                                </td>
-                            </tr>
-
-                            <tr class="font-weight-bold">
-                                <td class="text-capitalize text-truncate">Muhhamad</td>
-                                <td class="colorln text-capitalize text-truncate">Lynch</td>
-                                <td class="coloremail text-capitalize text-truncate">Muhhamad@gmail.com</td>
-                                <td class="text-truncate text-truncate">(978) 764-5637</td>
-                                <td class="text-truncate"> Admin </td>
-                                <td class="text-truncate">HR</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.ibm.com</td>
-                                <td class="text-truncate">1-25 </td>
-                                <td class="text text-capitalize text-center">
-                                    <a class="font-weight-bold pointer view"><u> View</u></a>
-                                </td>
-                            </tr>
-
-                            <tr class="font-weight-bold">
-                                <td class="text-capitalize text-truncate">Dennis</td>
-                                <td class="colorln text-capitalize text-truncate">Lynch</td>
-                                <td class="coloremail text-capitalize text-truncate">Richards@gmail.com</td>
-                                <td class="text-truncate text-truncate">(978) 764-5637</td>
-                                <td class="text-truncate"> Admin </td>
-                                <td class="text-truncate">HR</td>
-                                <td class="text-truncate"> 10/08/2020</td>
-                                <td class="text-truncate text-center">www.ibm.com</td>
-                                <td class="text-truncate">1-25 </td>
+                                <td class="colorln text-capitalize text-truncate">Katherine</td>
+                                <td class="coloremail text-capitalize text-truncate">parkers@gmail.com</td>
+                                <td class="text-truncate text-truncate">Tech Support Help</td>
+                                <td class="text-truncate"> Case Management </td>
+                                <td class="text-truncate">Case Management Installation Process for my New Company...</td>
+                                <td class="text-truncate text-center">DennisKatherine</td>
                                 <td class="text text-capitalize text-center">
                                     <a class="font-weight-bold pointer view"><u> View</u></a>
                                 </td>
