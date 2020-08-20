@@ -328,3 +328,8 @@ function submitpage(result) {
         }
     });
 }
+
+// Dynamic video name getting
+function Passvname(name) {
+    document.getElementById("vname").innerHTML = name + ' video will come soon';
+}

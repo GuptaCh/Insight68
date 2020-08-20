@@ -408,7 +408,7 @@ textarea {
 	height: 35px;
 	text-align: center;
 	position: fixed;
-	bottom: 75px;
+	bottom: 115px;
 	right: 25px;
 	transition: background-color .3s, opacity .5s, visibility .5s;
 	opacity: 0;
@@ -646,4 +646,10 @@ textarea {
 
 .hide {
 	display: none;
+}
+
+button[data-dismiss="modal"]:focus,
+button[data-dismiss="modal"]:active {
+	outline: none !important;
+	box-shadow: none;
 }
