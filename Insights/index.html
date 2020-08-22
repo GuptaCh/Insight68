@@ -14,6 +14,18 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
   <title>INSIGHT68</title>
+
+  <style>
+    .navbar-nav li:hover .dropdown-menu {
+      display: block;
+    }
+
+    /* rotate caret on hover */
+    .dropdown-menu>li>a:hover:after {
+      text-decoration: underline;
+      transform: rotate(-90deg);
+    }
+  </style>
 </head>
 
 <body>
@@ -28,13 +40,13 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <a class="headmail font-weight-bold" href="mailto:sales@insight68.com">
               <img class="mb-1" src="images/mail.svg" />
-              sales@insight68.com
+              sales@insight68.com <i class="fas fa-dollar-sign"></i>
             </a>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right">
-            <a class="headmail font-weight-bold pr-2 pointer" href="contactus.html">Contact Us</a> |
-            <a class="headmail font-weight-bold px-2 pointer" href="signin.html">Sign In</a> <img
-              src="images/user.svg" />
+            <strong class="headmail pr-2">Welcome <strong style="color: #F8B62B;">Mohamad</strong></strong>
+            <a class="headmail font-weight-bold pointer" href="/index.html">Logout</a>
+            <img src="/images/logout.svg" />
           </div>
         </div>
       </div>
@@ -67,7 +79,7 @@
                     <div class="col-12 col-sm-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 p-3"
                       style="background-color: #fff;">
                       <strong style="color: #333;">Overview</strong>
-                      <a class="dropdown-item mt-3" href="pro-insight.html">What is Insight68</a>
+                      <a class="dropdown-item mt-3" href="index.html">What is Insight68</a>
                       <a class="dropdown-item" href="pro-overview.html">Overview of Products</a>
                       <a class="dropdown-item" href="pro-industries.html">Industries</a>
                       <a class="dropdown-item" href="pro-platform.html">Platform</a>
@@ -555,7 +567,7 @@
             <li><a href="service.html">Services</a></li>
             <li><a href="pricing.html">Pricing Plans</a></li>
             <li><a class="dropdown-item" href="customerSuccessStories.html">
-              Customer Success Stories</a></li>
+                Customer Success Stories</a></li>
             <li><a href="guide.html">Guides and Videos</a></li>
             <li><a href="compliance.html">Compliance</a></li>
           </ul>
@@ -664,7 +676,7 @@
   <script src="js/popper.js"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
+  <!-- <script src="js/custom.js"></script> -->
 
 </body>
 
