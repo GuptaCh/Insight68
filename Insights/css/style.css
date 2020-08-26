@@ -653,3 +653,26 @@ button[data-dismiss="modal"]:active {
 	outline: none !important;
 	box-shadow: none;
 }
+
+/*legal stuff css*/
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+}
+
+.stuff-link {
+	box-shadow: 0px 10px 15px 6px rgba(0,0,0,0.19);
+	font-size: 18px;
+}
+.stuff-link a:hover {
+	font-weight: 600;
+	color: #122A88;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #122A88;
+	font-weight: 600;
+}
